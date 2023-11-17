@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    #abrazo-img {
+      width: 300px; 
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    #abrazo-img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <img id="abrazo-img" src="https://media.tenor.com/uUaaCqF0qgwAAAAC/abrazo-virtual.gif" alt="Abrazo virtual" onclick="enviarAbrazo()">
+  
+  <script>
+    function enviarAbrazo() {
+      alert("¡Abrazo virtual para mi princesa, te amo! 🤗");
+      
+    }
+  </script>
+</body>
+</html>
